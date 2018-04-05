@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/scp/catkin_ws/devel/setup.sh
+    local-name: /home/scp/ros-codes/catkin_ws/devel/setup.sh
