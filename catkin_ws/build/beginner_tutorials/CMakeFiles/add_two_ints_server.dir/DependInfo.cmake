@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include"
+  "/home/scp/ros-codes/catkin_ws/src/beginner_tutorials/include"
   "/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
