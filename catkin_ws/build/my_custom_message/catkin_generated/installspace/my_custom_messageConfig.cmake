@@ -68,7 +68,7 @@ set(my_custom_message_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(my_custom_message_SOURCE_PREFIX /home/scp/ros-codes/catkin_ws/src/my_custom_message)
-  set(my_custom_message_DEVEL_PREFIX /home/scp/ros-codes/catkin_ws/devel)
+  set(my_custom_message_DEVEL_PREFIX /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message)
   set(my_custom_message_INSTALL_PREFIX "")
   set(my_custom_message_PREFIX ${my_custom_message_DEVEL_PREFIX})
 else()

@@ -11,13 +11,13 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "ROSCONSOLE_BACKEND_LOG4CXX"
-  "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"beginner_tutorials\""
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/scp/ros-codes/catkin_ws/devel/include"
+  "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include"
+  "/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

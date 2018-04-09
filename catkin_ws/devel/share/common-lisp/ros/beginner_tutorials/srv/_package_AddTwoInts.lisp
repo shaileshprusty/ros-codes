@@ -1,8 +1,1 @@
-(cl:in-package beginner_tutorials-srv)
-(cl:export '(A-VAL
-          A
-          B-VAL
-          B
-          SUM-VAL
-          SUM
-))
+/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/common-lisp/ros/beginner_tutorials/srv/_package_AddTwoInts.lisp

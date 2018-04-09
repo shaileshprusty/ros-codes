@@ -1,0 +1,1 @@
+/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg/Number.js

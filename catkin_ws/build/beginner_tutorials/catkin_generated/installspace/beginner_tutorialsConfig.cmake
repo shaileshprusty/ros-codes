@@ -68,7 +68,7 @@ set(beginner_tutorials_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(beginner_tutorials_SOURCE_PREFIX /home/scp/ros-codes/catkin_ws/src/beginner_tutorials)
-  set(beginner_tutorials_DEVEL_PREFIX /home/scp/ros-codes/catkin_ws/devel)
+  set(beginner_tutorials_DEVEL_PREFIX /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials)
   set(beginner_tutorials_INSTALL_PREFIX "")
   set(beginner_tutorials_PREFIX ${beginner_tutorials_DEVEL_PREFIX})
 else()
@@ -160,7 +160,7 @@ foreach(t ${beginner_tutorials_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "message_runtime;roscpp;rospy;std_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

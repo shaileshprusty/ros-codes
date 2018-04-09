@@ -1,10 +1,1 @@
-(cl:defpackage beginner_tutorials-srv
-  (:use )
-  (:export
-   "ADDTWOINTS"
-   "<ADDTWOINTS-REQUEST>"
-   "ADDTWOINTS-REQUEST"
-   "<ADDTWOINTS-RESPONSE>"
-   "ADDTWOINTS-RESPONSE"
-  ))
-
+/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/common-lisp/ros/beginner_tutorials/srv/_package.lisp

@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/beginner_tutorials_generate_messages_eus"
-  "/home/scp/ros-codes/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/Num.l"
-  "/home/scp/ros-codes/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/AddTwoInts.l"
-  "/home/scp/ros-codes/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l"
+  "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv/AddTwoInts.l"
+  "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

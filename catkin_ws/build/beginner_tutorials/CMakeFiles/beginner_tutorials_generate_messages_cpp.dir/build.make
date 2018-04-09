@@ -43,50 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/scp/ros-codes/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/scp/ros-codes/catkin_ws/src/beginner_tutorials
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/scp/ros-codes/catkin_ws/build
+CMAKE_BINARY_DIR = /home/scp/ros-codes/catkin_ws/build/beginner_tutorials
 
 # Utility rule file for beginner_tutorials_generate_messages_cpp.
 
 # Include the progress variables for this target.
-include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/progress.make
+include CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/progress.make
 
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/Num.h
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h
+CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoInts.h
 
 
-/home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/Num.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/Num.h: /home/scp/ros-codes/catkin_ws/src/beginner_tutorials/msg/Num.msg
-/home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/Num.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from beginner_tutorials/Num.msg"
-	cd /home/scp/ros-codes/catkin_ws/src/beginner_tutorials && /home/scp/ros-codes/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/scp/ros-codes/catkin_ws/src/beginner_tutorials/msg/Num.msg -Ibeginner_tutorials:/home/scp/ros-codes/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoInts.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoInts.h: /home/scp/ros-codes/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv
+/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoInts.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoInts.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from beginner_tutorials/AddTwoInts.srv"
+	cd /home/scp/ros-codes/catkin_ws/src/beginner_tutorials && /home/scp/ros-codes/catkin_ws/build/beginner_tutorials/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/scp/ros-codes/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/scp/ros-codes/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -p beginner_tutorials -o /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h: /home/scp/ros-codes/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv
-/home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from beginner_tutorials/AddTwoInts.srv"
-	cd /home/scp/ros-codes/catkin_ws/src/beginner_tutorials && /home/scp/ros-codes/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/scp/ros-codes/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/scp/ros-codes/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials -e /opt/ros/kinetic/share/gencpp/cmake/..
-
-beginner_tutorials_generate_messages_cpp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp
-beginner_tutorials_generate_messages_cpp: /home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/Num.h
-beginner_tutorials_generate_messages_cpp: /home/scp/ros-codes/catkin_ws/devel/include/beginner_tutorials/AddTwoInts.h
-beginner_tutorials_generate_messages_cpp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build.make
+beginner_tutorials_generate_messages_cpp: CMakeFiles/beginner_tutorials_generate_messages_cpp
+beginner_tutorials_generate_messages_cpp: /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoInts.h
+beginner_tutorials_generate_messages_cpp: CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build.make
 
 .PHONY : beginner_tutorials_generate_messages_cpp
 
 # Rule to build all files generated by this target.
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build: beginner_tutorials_generate_messages_cpp
+CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build: beginner_tutorials_generate_messages_cpp
 
-.PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build
+.PHONY : CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build
 
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/clean:
-	cd /home/scp/ros-codes/catkin_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/cmake_clean.cmake
-.PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/clean
+CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/clean
 
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/depend:
-	cd /home/scp/ros-codes/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scp/ros-codes/catkin_ws/src /home/scp/ros-codes/catkin_ws/src/beginner_tutorials /home/scp/ros-codes/catkin_ws/build /home/scp/ros-codes/catkin_ws/build/beginner_tutorials /home/scp/ros-codes/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/depend
+CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/depend:
+	cd /home/scp/ros-codes/catkin_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scp/ros-codes/catkin_ws/src/beginner_tutorials /home/scp/ros-codes/catkin_ws/src/beginner_tutorials /home/scp/ros-codes/catkin_ws/build/beginner_tutorials /home/scp/ros-codes/catkin_ws/build/beginner_tutorials /home/scp/ros-codes/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/depend
 

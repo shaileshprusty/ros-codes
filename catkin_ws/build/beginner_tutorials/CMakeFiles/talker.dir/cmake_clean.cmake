@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/talker.dir/src/talker.cpp.o"
-  "/home/scp/ros-codes/catkin_ws/devel/lib/beginner_tutorials/talker.pdb"
-  "/home/scp/ros-codes/catkin_ws/devel/lib/beginner_tutorials/talker"
+  "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/talker.pdb"
+  "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/talker"
 )
 
 # Per-language clean rules from dependency scanning.
