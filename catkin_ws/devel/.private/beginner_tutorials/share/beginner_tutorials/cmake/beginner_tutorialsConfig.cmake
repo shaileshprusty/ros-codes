@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(beginner_tutorials_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include " STREQUAL " ")
+if(NOT "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include;/home/scp/ros-codes/catkin_ws/src/beginner_tutorials/include " STREQUAL " ")
   set(beginner_tutorials_INCLUDE_DIRS "")
-  set(_include_dirs "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include")
+  set(_include_dirs "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include;/home/scp/ros-codes/catkin_ws/src/beginner_tutorials/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -116,7 +116,7 @@ if(NOT "/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include 
   endforeach()
 endif()
 
-set(libraries "")
+set(libraries "beginner_tutorials")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
