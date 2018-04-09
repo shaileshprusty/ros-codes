@@ -60,11 +60,11 @@ CMakeFiles/beginner_tutorials_generate_messages_eus: /home/scp/ros-codes/catkin_
 /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv/AddTwoInts.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
 /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv/AddTwoInts.l: /home/scp/ros-codes/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from beginner_tutorials/AddTwoInts.srv"
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/scp/ros-codes/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/scp/ros-codes/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -p beginner_tutorials -o /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/scp/ros-codes/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv
 
 /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for beginner_tutorials"
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials beginner_tutorials std_msgs my_custom_message
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials beginner_tutorials std_msgs
 
 beginner_tutorials_generate_messages_eus: CMakeFiles/beginner_tutorials_generate_messages_eus
 beginner_tutorials_generate_messages_eus: /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv/AddTwoInts.l

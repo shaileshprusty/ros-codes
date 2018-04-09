@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"beginner_tutorials\"
 
-CXX_INCLUDES = -I/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include -I/home/scp/ros-codes/catkin_ws/src/beginner_tutorials/include -I/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 
