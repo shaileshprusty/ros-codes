@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/Number.msg"
+messages_str = "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg"
 services_str = ""
 pkg_name = "my_custom_message"
 dependencies_str = "std_msgs"

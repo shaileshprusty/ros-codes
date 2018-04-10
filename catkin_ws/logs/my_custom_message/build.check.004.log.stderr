@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/scp/ros-codes/catkin_ws/src/my_custom_message/CMakeLists.txt:12 (add_message_files):
+  Unknown CMake command "add_message_files".
+
+
+make: *** [cmake_check_build_system] Error 1

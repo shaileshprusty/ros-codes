@@ -1,8 +1,8 @@
 
 "use strict";
 
-let Number = require('./Number.js');
+let str_msg = require('./str_msg.js');
 
 module.exports = {
-  Number: Number,
+  str_msg: str_msg,
 };

@@ -53,16 +53,17 @@ CMAKE_BINARY_DIR = /home/scp/ros-codes/catkin_ws/build/my_custom_message
 # Include the progress variables for this target.
 include CMakeFiles/my_custom_message_generate_messages_nodejs.dir/progress.make
 
-CMakeFiles/my_custom_message_generate_messages_nodejs: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg/Number.js
+CMakeFiles/my_custom_message_generate_messages_nodejs: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg/str_msg.js
 
 
-/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg/Number.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg/Number.js: /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/Number.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from my_custom_message/Number.msg"
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/Number.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg
+/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg/str_msg.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg/str_msg.js: /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg
+/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg/str_msg.js: /opt/ros/kinetic/share/std_msgs/msg/String.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from my_custom_message/str_msg.msg"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg
 
 my_custom_message_generate_messages_nodejs: CMakeFiles/my_custom_message_generate_messages_nodejs
-my_custom_message_generate_messages_nodejs: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg/Number.js
+my_custom_message_generate_messages_nodejs: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/gennodejs/ros/my_custom_message/msg/str_msg.js
 my_custom_message_generate_messages_nodejs: CMakeFiles/my_custom_message_generate_messages_nodejs.dir/build.make
 
 .PHONY : my_custom_message_generate_messages_nodejs

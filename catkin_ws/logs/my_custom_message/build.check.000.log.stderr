@@ -1,0 +1,13 @@
+[31m[1mCMake Error[0m at /home/scp/ros-codes/catkin_ws/build/my_custom_message/cmake/my_custom_message-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [String] in package [my_custom_message] with paths
+  [['/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg']]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:17 (generate_messages)
+
+
+make: *** [cmake_check_build_system] Error 1

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_custom_message_generate_messages_lisp"
-  "/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/common-lisp/ros/my_custom_message/msg/Number.lisp"
+  "/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/common-lisp/ros/my_custom_message/msg/str_msg.lisp"
 )
 
 # Per-language clean rules from dependency scanning.
