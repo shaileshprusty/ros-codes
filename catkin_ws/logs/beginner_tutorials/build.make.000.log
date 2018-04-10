@@ -40,9 +40,9 @@
 [35m[1mScanning dependencies of target talker[0m
 [ 80%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
 [ 86%] [32m[1mLinking CXX executable /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/talker[0m
+[ 86%] Built target talker
 [35m[1mScanning dependencies of target beginner_tutorials_generate_messages[0m
 [ 86%] Built target beginner_tutorials_generate_messages
-[ 86%] Built target talker
 [35m[1mScanning dependencies of target add_two_ints_server[0m
 [ 93%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
 [100%] [32m[1mLinking CXX executable /home/scp/ros-codes/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server[0m
