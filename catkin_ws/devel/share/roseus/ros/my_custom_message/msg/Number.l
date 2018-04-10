@@ -1,1 +1,0 @@
-/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/roseus/ros/my_custom_message/msg/Number.l

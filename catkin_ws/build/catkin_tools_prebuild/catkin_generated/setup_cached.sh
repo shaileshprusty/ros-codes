@@ -13,4 +13,4 @@ export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/i386
 export PWD="/home/scp/ros-codes/catkin_ws/build/catkin_tools_prebuild"
 export PYTHONPATH="/opt/ros/kinetic/lib/python2.7/dist-packages"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/scp/ros-codes/catkin_ws/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/scp/ros-codes/catkin_ws/build/catkin_tools_prebuild:/home/scp/ros-codes/catkin_ws/src/beginner_tutorials:/home/scp/ros-codes/catkin_ws/src/my_custom_message:/opt/ros/kinetic/share"
+export ROS_PACKAGE_PATH="/home/scp/ros-codes/catkin_ws/build/catkin_tools_prebuild:/home/scp/ros-codes/catkin_ws/src/beginner_tutorials:/home/scp/ros-codes/catkin_ws/src/my_custom_message:/home/scp/ros-codes/catkin_ws/src/my_pub_sub:/opt/ros/kinetic/share"

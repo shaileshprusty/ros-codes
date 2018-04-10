@@ -1,1 +1,0 @@
-/home/scp/ros-codes/catkin_ws/devel/.private/my_pub_sub/share/roseus/ros/my_pub_sub/manifest.l

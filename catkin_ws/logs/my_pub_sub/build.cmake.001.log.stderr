@@ -1,4 +1,0 @@
-[31m[1mCMake Error[0m at /home/scp/ros-codes/catkin_ws/src/my_pub_sub/CMakeLists.txt:70 (generate_messages):
-  Unknown CMake command "generate_messages".
-
-

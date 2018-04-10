@@ -201,9 +201,9 @@ include_directories(
 
 add_executable(pub src/pub.cpp)
 target_link_libraries(pub ${catkin_LIBRARIES})
-add_dependencies(pub my_pub_sub_generate_messages_cpp)
+#add_dependencies(pub my_pub_sub_generate_messages_cpp)
 
 add_executable(sub src/sub.cpp)
 target_link_libraries(sub ${catkin_LIBRARIES})
-add_dependencies(sub my_pub_sub_generate_messages_cpp)
+#add_dependencies(sub my_pub_sub_generate_messages_cpp)
 

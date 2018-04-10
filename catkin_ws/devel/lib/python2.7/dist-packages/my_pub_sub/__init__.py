@@ -1,1 +1,0 @@
-/home/scp/ros-codes/catkin_ws/devel/.private/my_pub_sub/lib/python2.7/dist-packages/my_pub_sub/__init__.py

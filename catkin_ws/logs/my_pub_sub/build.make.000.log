@@ -1,30 +1,8 @@
-[35m[1mScanning dependencies of target my_pub_sub_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target my_pub_sub_generate_messages_cpp[0m
-[  0%] Built target my_pub_sub_generate_messages_cpp
-[  0%] Built target my_pub_sub_generate_messages_nodejs
-[35m[1mScanning dependencies of target my_pub_sub_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target my_pub_sub_generate_messages_eus[0m
-[ 20%] Built target my_pub_sub_generate_messages_lisp
-[ 20%] [34m[1mGenerating EusLisp manifest code for my_pub_sub[0m
-[35m[1mScanning dependencies of target my_pub_sub_generate_messages_py[0m
-[ 20%] Built target my_pub_sub_generate_messages_py
 [35m[1mScanning dependencies of target pub[0m
-[ 40%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
-[ 40%] Built target my_pub_sub_generate_messages_eus
+[ 25%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/scp/ros-codes/catkin_ws/devel/.private/my_pub_sub/lib/my_pub_sub/pub[0m
+[ 50%] Built target pub
 [35m[1mScanning dependencies of target sub[0m
-[ 60%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
-[01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/sub.cpp:2:42:[m[K [01;31m[Kfatal error: [m[Kmy_custom_message/string_msg.h: No such file or directory
-[01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/pub.cpp:2:42:[m[K [01;31m[Kfatal error: [m[Kmy_custom_message/srting_msg.h: No such file or directory
-compilation terminated.
-compilation terminated.
-CMakeFiles/sub.dir/build.make:62: recipe for target 'CMakeFiles/sub.dir/src/sub.cpp.o' failed
-make[2]: *** [CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
-CMakeFiles/Makefile2:328: recipe for target 'CMakeFiles/sub.dir/all' failed
-make[1]: *** [CMakeFiles/sub.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-CMakeFiles/pub.dir/build.make:62: recipe for target 'CMakeFiles/pub.dir/src/pub.cpp.o' failed
-make[2]: *** [CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
-CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/pub.dir/all' failed
-make[1]: *** [CMakeFiles/pub.dir/all] Error 2
-Makefile:138: recipe for target 'all' failed
-make: *** [all] Error 2
+[ 75%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/scp/ros-codes/catkin_ws/devel/.private/my_pub_sub/lib/my_pub_sub/sub[0m
+[100%] Built target sub

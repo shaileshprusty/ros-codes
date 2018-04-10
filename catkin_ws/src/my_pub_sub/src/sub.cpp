@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 
   ros::NodeHandle n;
 
-  ros::Subscriber sub = n.subscribe("my_topic", 1000, chatterCallback);
+  ros::Subscriber chatter_sub = n.subscribe("my_topic", 1000, chatterCallback);
 
   ros::spin();
 
