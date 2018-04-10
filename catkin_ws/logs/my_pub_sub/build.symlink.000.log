@@ -1,0 +1,9 @@
+Symlinking /home/scp/ros-codes/catkin_ws/devel/lib/pkgconfig/my_pub_sub.pc
+Symlinking /home/scp/ros-codes/catkin_ws/devel/lib/python2.7/dist-packages/my_pub_sub/__init__.py
+Symlinking /home/scp/ros-codes/catkin_ws/devel/lib/my_pub_sub/sub
+Symlinking /home/scp/ros-codes/catkin_ws/devel/lib/my_pub_sub/pub
+Symlinking /home/scp/ros-codes/catkin_ws/devel/share/my_pub_sub/cmake/my_pub_subConfig.cmake
+Symlinking /home/scp/ros-codes/catkin_ws/devel/share/my_pub_sub/cmake/my_pub_sub-msg-paths.cmake
+Symlinking /home/scp/ros-codes/catkin_ws/devel/share/my_pub_sub/cmake/my_pub_sub-msg-extras.cmake
+Symlinking /home/scp/ros-codes/catkin_ws/devel/share/my_pub_sub/cmake/my_pub_subConfig-version.cmake
+Symlinking /home/scp/ros-codes/catkin_ws/devel/share/roseus/ros/my_pub_sub/manifest.l

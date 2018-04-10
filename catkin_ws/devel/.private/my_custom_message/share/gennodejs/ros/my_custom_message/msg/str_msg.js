@@ -11,7 +11,6 @@ const _deserializer = _ros_msg_utils.Deserialize;
 const _arrayDeserializer = _deserializer.Array;
 const _finder = _ros_msg_utils.Find;
 const _getByteLength = _ros_msg_utils.getByteLength;
-let std_msgs = _finder('std_msgs');
 
 //-----------------------------------------------------------
 
@@ -19,22 +18,22 @@ class str_msg {
   constructor(initObj={}) {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
-      this.str = null;
+      this.strg = null;
     }
     else {
-      if (initObj.hasOwnProperty('str')) {
-        this.str = initObj.str
+      if (initObj.hasOwnProperty('strg')) {
+        this.strg = initObj.strg
       }
       else {
-        this.str = new std_msgs.msg.String();
+        this.strg = '';
       }
     }
   }
 
   static serialize(obj, buffer, bufferOffset) {
     // Serializes a message object of type str_msg
-    // Serialize message field [str]
-    bufferOffset = std_msgs.msg.String.serialize(obj.str, buffer, bufferOffset);
+    // Serialize message field [strg]
+    bufferOffset = _serializer.string(obj.strg, buffer, bufferOffset);
     return bufferOffset;
   }
 
@@ -42,15 +41,15 @@ class str_msg {
     //deserializes a message object of type str_msg
     let len;
     let data = new str_msg(null);
-    // Deserialize message field [str]
-    data.str = std_msgs.msg.String.deserialize(buffer, bufferOffset);
+    // Deserialize message field [strg]
+    data.strg = _deserializer.string(buffer, bufferOffset);
     return data;
   }
 
   static getMessageSize(object) {
     let length = 0;
-    length += std_msgs.msg.String.getMessageSize(object.str);
-    return length;
+    length += object.strg.length;
+    return length + 4;
   }
 
   static datatype() {
@@ -60,17 +59,13 @@ class str_msg {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '32224c1636e75e68745b61629dfa07c5';
+    return '7320de471be605ad0f1e7c7af079792f';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    std_msgs/String str
-    
-    ================================================================================
-    MSG: std_msgs/String
-    string data
+    string strg
     
     `;
   }
@@ -81,11 +76,11 @@ class str_msg {
       msg = {};
     }
     const resolved = new str_msg(null);
-    if (msg.str !== undefined) {
-      resolved.str = std_msgs.msg.String.Resolve(msg.str)
+    if (msg.strg !== undefined) {
+      resolved.strg = msg.strg;
     }
     else {
-      resolved.str = new std_msgs.msg.String()
+      resolved.strg = ''
     }
 
     return resolved;

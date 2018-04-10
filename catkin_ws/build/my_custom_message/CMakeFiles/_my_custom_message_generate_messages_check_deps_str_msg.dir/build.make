@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/scp/ros-codes/catkin_ws/build/my_custom_message
 include CMakeFiles/_my_custom_message_generate_messages_check_deps_str_msg.dir/progress.make
 
 CMakeFiles/_my_custom_message_generate_messages_check_deps_str_msg:
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py my_custom_message /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg std_msgs/String
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py my_custom_message /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg 
 
 _my_custom_message_generate_messages_check_deps_str_msg: CMakeFiles/_my_custom_message_generate_messages_check_deps_str_msg
 _my_custom_message_generate_messages_check_deps_str_msg: CMakeFiles/_my_custom_message_generate_messages_check_deps_str_msg.dir/build.make

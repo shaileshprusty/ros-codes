@@ -1,0 +1,51 @@
+[01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/pub.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_custom_message::str_msg {aka struct my_custom_message::str_msg_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kdata[m[K’
+     msg.data = ss.str();
+[01;32m[K         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/pub.cpp:1[m[K:
+[01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/pub.cpp:23:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_custom_message::str_msg {aka struct my_custom_message::str_msg_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kdata[m[K’
+     ROS_INFO("%s", msg.data.c_str());
+[01;32m[K                        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                       ^[m[K
+[01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/pub.cpp:23:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     ROS_INFO("%s", msg.data.c_str());
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/sub.cpp:1[m[K:
+[01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/sub.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const ConstPtr&)[m[K’:
+[01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/sub.cpp:6:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct my_custom_message::str_msg_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   ROS_INFO("Shailesh heard: [%s]", msg->data.c_str());
+[01;32m[K                                         ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                       ^[m[K
+[01m[K/home/scp/ros-codes/catkin_ws/src/my_pub_sub/src/sub.cpp:6:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   ROS_INFO("Shailesh heard: [%s]", msg->data.c_str());
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sub.dir/all] Error 2
+make: *** [all] Error 2

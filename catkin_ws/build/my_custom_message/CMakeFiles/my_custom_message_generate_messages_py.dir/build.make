@@ -59,9 +59,8 @@ CMakeFiles/my_custom_message_generate_messages_py: /home/scp/ros-codes/catkin_ws
 
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_str_msg.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_str_msg.py: /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg
-/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_str_msg.py: /opt/ros/kinetic/share/std_msgs/msg/String.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG my_custom_message/str_msg"
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg
 
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/__init__.py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_str_msg.py

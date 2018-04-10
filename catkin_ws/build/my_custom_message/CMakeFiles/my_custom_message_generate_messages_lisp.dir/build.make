@@ -58,9 +58,8 @@ CMakeFiles/my_custom_message_generate_messages_lisp: /home/scp/ros-codes/catkin_
 
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/common-lisp/ros/my_custom_message/msg/str_msg.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/common-lisp/ros/my_custom_message/msg/str_msg.lisp: /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg
-/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/common-lisp/ros/my_custom_message/msg/str_msg.lisp: /opt/ros/kinetic/share/std_msgs/msg/String.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from my_custom_message/str_msg.msg"
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/common-lisp/ros/my_custom_message/msg
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/common-lisp/ros/my_custom_message/msg
 
 my_custom_message_generate_messages_lisp: CMakeFiles/my_custom_message_generate_messages_lisp
 my_custom_message_generate_messages_lisp: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/share/common-lisp/ros/my_custom_message/msg/str_msg.lisp

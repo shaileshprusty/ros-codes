@@ -1,1 +1,1 @@
-string str
+string strg

@@ -14,10 +14,10 @@ add_message_files(
   str_msg.msg
 )
 
-#generate_messages(
-#  DEPENDENCIES
+generate_messages(
+  DEPENDENCIES
 #  std_msgs
-#)
+)
 
 catkin_package(
 )

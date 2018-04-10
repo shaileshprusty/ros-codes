@@ -58,10 +58,9 @@ CMakeFiles/my_custom_message_generate_messages_cpp: /home/scp/ros-codes/catkin_w
 
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/include/my_custom_message/str_msg.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/include/my_custom_message/str_msg.h: /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg
-/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/include/my_custom_message/str_msg.h: /opt/ros/kinetic/share/std_msgs/msg/String.msg
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/include/my_custom_message/str_msg.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from my_custom_message/str_msg.msg"
-	cd /home/scp/ros-codes/catkin_ws/src/my_custom_message && /home/scp/ros-codes/catkin_ws/build/my_custom_message/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/include/my_custom_message -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/scp/ros-codes/catkin_ws/src/my_custom_message && /home/scp/ros-codes/catkin_ws/build/my_custom_message/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/include/my_custom_message -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 my_custom_message_generate_messages_cpp: CMakeFiles/my_custom_message_generate_messages_cpp
 my_custom_message_generate_messages_cpp: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/include/my_custom_message/str_msg.h

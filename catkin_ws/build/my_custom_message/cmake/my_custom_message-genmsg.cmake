@@ -2,7 +2,7 @@
 
 message(STATUS "my_custom_message: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -19,7 +19,7 @@ add_custom_target(my_custom_message_generate_messages ALL)
 
 get_filename_component(_filename "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg" NAME_WE)
 add_custom_target(_my_custom_message_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "my_custom_message" "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg" "std_msgs/String"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "my_custom_message" "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_my_custom_message_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(my_custom_message
   "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/String.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/my_custom_message
 )
 
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS my_custom_message_generate_messages
 _generate_msg_eus(my_custom_message
   "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/String.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/my_custom_message
 )
 
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS my_custom_message_generate_messages
 _generate_msg_lisp(my_custom_message
   "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/String.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/my_custom_message
 )
 
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS my_custom_message_generate_messages
 _generate_msg_nodejs(my_custom_message
   "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/String.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/my_custom_message
 )
 
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS my_custom_message_generate_messages
 _generate_msg_py(my_custom_message
   "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/String.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/my_custom_message
 )
 
@@ -200,9 +200,6 @@ if(gencpp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/my
     DESTINATION ${gencpp_INSTALL_DIR}
   )
 endif()
-if(TARGET std_msgs_generate_messages_cpp)
-  add_dependencies(my_custom_message_generate_messages_cpp std_msgs_generate_messages_cpp)
-endif()
 
 if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/my_custom_message)
   # install generated code
@@ -210,9 +207,6 @@ if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/my
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/my_custom_message
     DESTINATION ${geneus_INSTALL_DIR}
   )
-endif()
-if(TARGET std_msgs_generate_messages_eus)
-  add_dependencies(my_custom_message_generate_messages_eus std_msgs_generate_messages_eus)
 endif()
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/my_custom_message)
@@ -222,9 +216,6 @@ if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/
     DESTINATION ${genlisp_INSTALL_DIR}
   )
 endif()
-if(TARGET std_msgs_generate_messages_lisp)
-  add_dependencies(my_custom_message_generate_messages_lisp std_msgs_generate_messages_lisp)
-endif()
 
 if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/my_custom_message)
   # install generated code
@@ -232,9 +223,6 @@ if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_D
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/my_custom_message
     DESTINATION ${gennodejs_INSTALL_DIR}
   )
-endif()
-if(TARGET std_msgs_generate_messages_nodejs)
-  add_dependencies(my_custom_message_generate_messages_nodejs std_msgs_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/my_custom_message)
@@ -244,7 +232,4 @@ if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/my_c
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/my_custom_message
     DESTINATION ${genpy_INSTALL_DIR}
   )
-endif()
-if(TARGET std_msgs_generate_messages_py)
-  add_dependencies(my_custom_message_generate_messages_py std_msgs_generate_messages_py)
 endif()

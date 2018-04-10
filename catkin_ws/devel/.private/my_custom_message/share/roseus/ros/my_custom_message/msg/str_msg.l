@@ -10,64 +10,54 @@
 
 (in-package "ROS")
 ;;//! \htmlinclude str_msg.msg.html
-(if (not (find-package "STD_MSGS"))
-  (ros::roseus-add-msgs "std_msgs"))
 
 
 (defclass my_custom_message::str_msg
   :super ros::object
-  :slots (_str ))
+  :slots (_strg ))
 
 (defmethod my_custom_message::str_msg
   (:init
    (&key
-    ((:str __str) (instance std_msgs::String :init))
+    ((:strg __strg) "")
     )
    (send-super :init)
-   (setq _str __str)
+   (setq _strg (string __strg))
    self)
-  (:str
-   (&rest __str)
-   (if (keywordp (car __str))
-       (send* _str __str)
-     (progn
-       (if __str (setq _str (car __str)))
-       _str)))
+  (:strg
+   (&optional __strg)
+   (if __strg (setq _strg __strg)) _strg)
   (:serialization-length
    ()
    (+
-    ;; std_msgs/String _str
-    (send _str :serialization-length)
+    ;; string _strg
+    4 (length _strg)
     ))
   (:serialize
    (&optional strm)
    (let ((s (if strm strm
               (make-string-output-stream (send self :serialization-length)))))
-     ;; std_msgs/String _str
-       (send _str :serialize s)
+     ;; string _strg
+       (write-long (length _strg) s) (princ _strg s)
      ;;
      (if (null strm) (get-output-stream-string s))))
   (:deserialize
    (buf &optional (ptr- 0))
-   ;; std_msgs/String _str
-     (send _str :deserialize buf ptr-) (incf ptr- (send _str :serialization-length))
+   ;; string _strg
+     (let (n) (setq n (sys::peek buf ptr- :integer)) (incf ptr- 4) (setq _strg (subseq buf ptr- (+ ptr- n))) (incf ptr- n))
    ;;
    self)
   )
 
-(setf (get my_custom_message::str_msg :md5sum-) "32224c1636e75e68745b61629dfa07c5")
+(setf (get my_custom_message::str_msg :md5sum-) "7320de471be605ad0f1e7c7af079792f")
 (setf (get my_custom_message::str_msg :datatype-) "my_custom_message/str_msg")
 (setf (get my_custom_message::str_msg :definition-)
-      "std_msgs/String str
-
-================================================================================
-MSG: std_msgs/String
-string data
+      "string strg
 
 ")
 
 
 
-(provide :my_custom_message/str_msg "32224c1636e75e68745b61629dfa07c5")
+(provide :my_custom_message/str_msg "7320de471be605ad0f1e7c7af079792f")
 
 
