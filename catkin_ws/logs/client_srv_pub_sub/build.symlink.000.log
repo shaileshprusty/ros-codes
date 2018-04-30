@@ -1,3 +1,5 @@
 Symlinking /home/scp/ros-codes/catkin_ws/devel/lib/pkgconfig/client_srv_pub_sub.pc
+Symlinking /home/scp/ros-codes/catkin_ws/devel/lib/client_srv_pub_sub/input_output_node
+Symlinking /home/scp/ros-codes/catkin_ws/devel/lib/client_srv_pub_sub/process_node
 Symlinking /home/scp/ros-codes/catkin_ws/devel/share/client_srv_pub_sub/cmake/client_srv_pub_subConfig.cmake
 Symlinking /home/scp/ros-codes/catkin_ws/devel/share/client_srv_pub_sub/cmake/client_srv_pub_subConfig-version.cmake
