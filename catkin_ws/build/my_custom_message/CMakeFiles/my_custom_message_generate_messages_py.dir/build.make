@@ -53,22 +53,38 @@ CMAKE_BINARY_DIR = /home/scp/ros-codes/catkin_ws/build/my_custom_message
 # Include the progress variables for this target.
 include CMakeFiles/my_custom_message_generate_messages_py.dir/progress.make
 
+CMakeFiles/my_custom_message_generate_messages_py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_numbers.py
 CMakeFiles/my_custom_message_generate_messages_py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_str_msg.py
+CMakeFiles/my_custom_message_generate_messages_py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_num_sum.py
 CMakeFiles/my_custom_message_generate_messages_py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/__init__.py
 
 
+/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_numbers.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_numbers.py: /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/numbers.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG my_custom_message/numbers"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/numbers.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg
+
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_str_msg.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_str_msg.py: /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG my_custom_message/str_msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG my_custom_message/str_msg"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg
 
+/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_num_sum.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_num_sum.py: /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/num_sum.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG my_custom_message/num_sum"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/num_sum.msg -Imy_custom_message:/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg -p my_custom_message -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg
+
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/__init__.py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_numbers.py
 /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/__init__.py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_str_msg.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for my_custom_message"
+/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/__init__.py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_num_sum.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scp/ros-codes/catkin_ws/build/my_custom_message/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for my_custom_message"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg --initpy
 
 my_custom_message_generate_messages_py: CMakeFiles/my_custom_message_generate_messages_py
+my_custom_message_generate_messages_py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_numbers.py
 my_custom_message_generate_messages_py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_str_msg.py
+my_custom_message_generate_messages_py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_num_sum.py
 my_custom_message_generate_messages_py: /home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/__init__.py
 my_custom_message_generate_messages_py: CMakeFiles/my_custom_message_generate_messages_py.dir/build.make
 

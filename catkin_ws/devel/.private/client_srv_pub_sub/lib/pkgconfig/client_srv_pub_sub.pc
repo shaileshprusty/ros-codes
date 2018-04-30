@@ -1,0 +1,8 @@
+prefix=/home/scp/ros-codes/catkin_ws/devel/.private/client_srv_pub_sub
+
+Name: client_srv_pub_sub
+Description: Description of client_srv_pub_sub
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/scp/ros-codes/catkin_ws/devel/.private/client_srv_pub_sub/lib 
+Requires: 

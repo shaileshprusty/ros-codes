@@ -70,7 +70,7 @@ find_package(catkin REQUIRED COMPONENTS
 # generate_messages(
 #   DEPENDENCIES
 #   std_msgs  # Or other packages containing msgs
-# )
+#)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -196,3 +196,12 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(input_output_node src/input_output_node.cpp)
+target_link_libraries(input_output_node ${catkin_LIBRARIES})
+#add_dependencies(pub my_pub_sub_generate_messages_cpp)
+
+add_executable(process_node src/process_node.cpp)
+target_link_libraries(process_node ${catkin_LIBRARIES})
+#add_dependencies(sub my_pub_sub_generate_messages_cpp)
+

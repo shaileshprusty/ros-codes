@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_custom_message_generate_messages_py"
+  "/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_numbers.py"
   "/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_str_msg.py"
+  "/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/_num_sum.py"
   "/home/scp/ros-codes/catkin_ws/devel/.private/my_custom_message/lib/python2.7/dist-packages/my_custom_message/msg/__init__.py"
 )
 

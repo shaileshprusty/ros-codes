@@ -1,5 +1,0 @@
-Symlinking /home/scp/ros-codes/catkin_ws/devel/lib/pkgconfig/my_pub_sub.pc
-Symlinking /home/scp/ros-codes/catkin_ws/devel/lib/my_pub_sub/sub
-Symlinking /home/scp/ros-codes/catkin_ws/devel/lib/my_pub_sub/pub
-Symlinking /home/scp/ros-codes/catkin_ws/devel/share/my_pub_sub/cmake/my_pub_subConfig.cmake
-Symlinking /home/scp/ros-codes/catkin_ws/devel/share/my_pub_sub/cmake/my_pub_subConfig-version.cmake

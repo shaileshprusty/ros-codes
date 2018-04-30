@@ -115,7 +115,11 @@ file(INSTALL DESTINATION "/home/scp/ros-codes/catkin_ws/install" TYPE FILE FILES
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_message/msg" TYPE FILE FILES "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_message/msg" TYPE FILE FILES
+    "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/str_msg.msg"
+    "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/numbers.msg"
+    "/home/scp/ros-codes/catkin_ws/src/my_custom_message/msg/num_sum.msg"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

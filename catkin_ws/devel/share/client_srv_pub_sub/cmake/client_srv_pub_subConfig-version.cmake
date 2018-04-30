@@ -1,0 +1,1 @@
+/home/scp/ros-codes/catkin_ws/devel/.private/client_srv_pub_sub/share/client_srv_pub_sub/cmake/client_srv_pub_subConfig-version.cmake

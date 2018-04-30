@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target input_output_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/input_output_node.dir/src/input_output_node.cpp.o[0m
+[35m[1mScanning dependencies of target process_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/process_node.dir/src/process_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/scp/ros-codes/catkin_ws/devel/.private/client_srv_pub_sub/lib/client_srv_pub_sub/input_output_node[0m
+[ 75%] Built target input_output_node
+[100%] [32m[1mLinking CXX executable /home/scp/ros-codes/catkin_ws/devel/.private/client_srv_pub_sub/lib/client_srv_pub_sub/process_node[0m
+[100%] Built target process_node
